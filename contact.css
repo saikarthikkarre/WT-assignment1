@@ -1,0 +1,42 @@
+/* Contact Form Styling */
+form {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    padding: 2rem;
+    border-radius: 10px;
+    backdrop-filter: blur(10px); /* Blur effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+form input:focus,
+form textarea:focus {
+    background: rgba(255, 255, 255, 1); /* Solid white background on focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+form button {
+    background: #ffc107; /* Yellow button */
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #e0a800; /* Darker yellow on hover */
+}

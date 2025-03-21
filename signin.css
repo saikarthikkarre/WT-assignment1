@@ -1,0 +1,45 @@
+/* Center the form */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+/* Form styling */
+form {
+    max-width: 330px;
+    padding: 1rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Logo */
+form img {
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+/* Input Fields */
+.form-floating input {
+    border-radius: 5px;
+}
+
+/* Checkbox alignment */
+.form-check {
+    text-align: left;
+}
+
+/* Button Styling */
+.btn {
+    border-radius: 5px;
+}
+
+/* Copyright text */
+.text-body-secondary {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
